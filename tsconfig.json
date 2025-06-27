@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "module": "NodeNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "nodenext"
+  }
+}
